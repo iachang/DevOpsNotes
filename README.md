@@ -27,10 +27,17 @@
 * At the end of each iteration, a working and functional product is deployed.
 **Stages:
 1. Requirements
-2. Plan the project
-3. Run the multiple "iterations" as described above to progressively build the entire project in multiple "pieces."
-4. Deploy - Once the project is fully complete, deploy the project.
+2. Run the multiple "iterations" as described above to progressively build the entire project in multiple "pieces."
+3. Deploy - Once the project is fully complete, deploy the project.
 **Issues:
 1. Any conflicts or inconsistency in the deployment stage will be a huge inconvenience and one undesriable path must be taken. Takes a long time to fix any buggy upgrade still. For example, the "Dev" team wants change and add more features so the application works on the "Dev" team laptop; but once the application reaches the "Ops" team laptop there is a bug, so the "Ops" team wants stability and fix bugs before deployment. This is because deployment is linear, and not "circular" or "continuous" like the Design, Build, Test phase.
 
 What's the solution to both Agile and Waterfall? **DevOps!**
+
+####DevOps
+* A methodology that combines the development team (change) and operations team (stability). 
+* Studies building constantly evolving and rapidly changing systems at large scale.
+* As we labeled above, the Agile **development** methodology involves continuous, "circular" iterations of Discover, Designing, and Developing.
+* To continue with DevOps, we need to understand the **operations** methodology. These involve continuous, "circular" iterations of Deploying, Operating, and Monitoring. 
+* Common technologies matches with each portion: Git/JUnit -> "Dev", Jenkins/Travis CI -> "DevOps (Continuous Integration)", Docker -> "Ops"
+
